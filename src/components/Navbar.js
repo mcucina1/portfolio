@@ -17,7 +17,7 @@ function Navbar() {
   return (
     <div className='navbar' id={expandNavbar ? 'open' : 'close'}>
         <div className='links font-inter text-xl lg:text-2xl'>
-            <NavLink to={'/new-portfolio'}> Home </NavLink>
+            <NavLink to={'/'}> Home </NavLink>
             <NavLink to={'/about'}> About </NavLink>
             <NavLink to={'/projects'}> Projects </NavLink>
             <NavLink to={'/skills'}> Skills </NavLink>

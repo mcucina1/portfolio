@@ -23,7 +23,7 @@ function App() {
           <div className='min-h-[calc(88vh-100px)] flex justify-start max-w-[1280px] w-full'>
           <Routes>
             <Route path='*' element={<Home/>}/>
-            <Route path='/new-portfolio' element={<Home/>}/>
+            <Route path='/' element={<Home/>}/>
             <Route path='/about' element={<About/>}/>
             <Route path='/projects' element={<Projects/>}/>
             <Route path='/projects/:url' element={<IndividualProject/>}/>
