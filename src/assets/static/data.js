@@ -96,6 +96,6 @@ export const projects = [
                 {'tech': 'React','color':'bg-[#61dbf6]'}, 
                 {'tech': 'Tailwind CSS','color': 'bg-[#0ea4e9]'}
             ],
-            "link":"https://github.com/mcucina1/new-portfolio"
+            "link":"https://github.com/mcucina1/portfolio"
         }
 ]
