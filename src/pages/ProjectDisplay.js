@@ -18,7 +18,7 @@ function ProjectDisplay({setLoaded ,name, image, alt, url, description, link}) {
             <footer className='py-4 px-6 flex flex-col flex-wrap'>
                 <h5 className='mb-3 text-2xl font-bold leading-8 tracking-tight'>{name}</h5>
                 <p>{description}</p>
-               {/*  <a href={link} target='_blank' rel='noreferrer' className='underline absolute bottom-4'>github</a> */}
+                <Link to={`${url}`} className='underline absolute bottom-4 text-blue-400 transition-colors duration-150 hover:text-blue-600'>Learn More</Link>
             </footer>
         </div>
     </div>
