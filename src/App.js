@@ -1,5 +1,6 @@
 import './App.css';
 import {
+  HashRouter,
   BrowserRouter as Router,
   Routes,
   Route
@@ -17,7 +18,7 @@ import IndividualProject from './pages/IndividualProject';
 function App() {
 
   return (
-      <Router>
+      <HashRouter basename='/'>
         <Navbar/>
         <div className='flex justify-center'>
           <div className='min-h-[calc(88vh-100px)] flex justify-start max-w-[1280px] w-full'>
@@ -34,7 +35,7 @@ function App() {
           </div>
         </div>
         <Footer/>
-      </Router>
+      </HashRouter>
   );
 }
 
